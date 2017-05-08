@@ -1,5 +1,7 @@
-Boundary Process CPU Plugin
----------------------------
+Boundary Process CPU Plugin (Deprecated)
+----------------------------------------
+
+### Note : This plugin is deprecated, use [Process plugin](https://help.truesight.bmc.com/hc/en-us/articles/214110829-Process-Plugin) instead.
 
 Displays CPU usage (%) for specific processes. Uses regular expressions to specify a process name, process full path, and/or the process current working directory. As above, currently only works for Linux based systems that support procfs (i.e. have a /proc directory). **Note**: to monitor processes with elevated priviledges requires running the meter as root, which is not recommended.
 
